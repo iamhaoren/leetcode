@@ -1,6 +1,7 @@
 package leetcode;
 
 import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Map;
 
 public class Base {
@@ -17,10 +18,7 @@ public class Base {
     }
 
     public static void main(String[] args) {
-        Map<String,String> map=new HashMap<>();
-        String s="a";
-        map.put(s,"a-");
-        s+="b";
-        System.out.println(map.get(s));
+        Map<String,String> map=new Hashtable<>();
     }
+
 }
