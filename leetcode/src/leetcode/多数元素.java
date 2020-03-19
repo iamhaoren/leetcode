@@ -11,7 +11,6 @@ public class 多数元素 {
         Arrays.sort(nums);
         return nums[nums.length/2];
     }
-
     //解法二：摩尔投票
     //纯属神仙解法
     public int majorityElement2(int[] nums) {
