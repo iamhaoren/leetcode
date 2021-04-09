@@ -1,14 +1,7 @@
 package Demo;
 
-import DesignModel.A;
-import DesignModel.Singletion;
 
-import java.math.BigInteger;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
+import org.w3c.dom.ls.LSOutput;
 
 /**
  * @author zhangyuhao-2362578972@qq.com
@@ -17,11 +10,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class Test{
 
-    class Singleton{
-        private Singleton(){}
-
-        private  Singletion instance=null;
-
+    public static void main(String[] args) {
 
     }
 }
