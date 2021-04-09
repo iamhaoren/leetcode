@@ -15,25 +15,15 @@ public class Base {
         ListNode(int x) { val = x; }
     }
 
-    public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> result=new ArrayList<>();
-        if (root==null)
-            return result;
-        Queue<TreeNode> queue=new LinkedList<>();
-        while (!queue.isEmpty()){
-            List<Integer> list=new ArrayList<>();
-            int size=queue.size();
-            for (int i=0;i<size;i++){
-                TreeNode current=queue.poll();
-                list.add(current.val);
-                if (current.left!=null)
-                    queue.add(current.left);
-                if (current.right!=null)
-                    queue.add(current.right);
-            }
-            result.add(list);
-        }
-        return result;
+    public static void main(String[] args) {
+        System.out.println((7^8)^7);
     }
-
+    public String ReverseSentence(String str) {
+        String[] arr=str.split(" ");
+        StringBuilder sb=new StringBuilder();
+        for(int i=arr.length-1;i>0;i--)
+            sb.append(arr[i]+" ");
+        sb.append(arr[0]);
+        return sb.toString();
+    }
 }
